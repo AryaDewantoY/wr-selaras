@@ -1,0 +1,24 @@
+import React, { Component } from 'react'
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from 'react-router-dom'
+import { NavbarComponent } from './components'
+import { Home, sukses } from './pages'
+
+export default class App extends Component {
+  render() {
+    return (
+     <BrowserRouter>
+      <NavbarComponent />
+      <main>
+        <Routes>
+          <Route path='/' Component={Home} excat/>
+          <Route path='/sukses' Component={sukses} excat/>
+        </Routes>
+      </main>
+     </BrowserRouter>
+    )
+  }
+}

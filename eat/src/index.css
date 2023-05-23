@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: 'DynaPuff', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  background-color: rgb(156, 199, 169)
+}
+
+.category-aktif {
+  background-color: rgb(70, 117, 84);
+  color: rgb(121, 226, 152);
+}
+
+.btn-primary {
+  background-color: rgb(91, 165, 140);
+}
+
+@media only screen a (max-heigt; 1000px) {
+  
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
